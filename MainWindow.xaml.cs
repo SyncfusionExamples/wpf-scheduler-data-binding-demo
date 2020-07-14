@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Syncfusion.UI.Xaml.Scheduler;
+using System.Windows;
 
 namespace DataBinding
 {

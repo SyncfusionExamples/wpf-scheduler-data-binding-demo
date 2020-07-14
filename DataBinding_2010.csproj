@@ -38,15 +38,34 @@
     <StartupObject>DataBinding.App</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Licensing" />
-	<Reference Include="Syncfusion.SfInput.WPF"/>
-	<Reference Include="Syncfusion.SfShared.WPF"/>
-    <Reference Include="Syncfusion.Shared.WPF" />
-    <Reference Include="Syncfusion.SfScheduler.WPF" />
-	<Reference Include="Syncfusion.SfSkinManager.WPF" />
-    <Reference Include="Syncfusion.Themes.MaterialLight.WPF">
-		<private>True</private>
-	</Reference>
+    <Reference Include="Syncfusion.Licensing, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Licensing.18.2.0.44\lib\net40\Syncfusion.Licensing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WPF, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SfInput.WPF.18.2.0.44\lib\net40\Syncfusion.SfInput.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfScheduler.WPF, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SfScheduler.WPF.18.2.0.44\lib\net40\Syncfusion.SfScheduler.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.WPF, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SfShared.WPF.18.2.0.44\lib\net40\Syncfusion.SfShared.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfSkinManager.WPF, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SfSkinManager.WPF.18.2.0.44\lib\net40\Syncfusion.SfSkinManager.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Shared.WPF.18.2.0.44\lib\net40\Syncfusion.Shared.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.MaterialLight.WPF, Version=18.2400.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Themes.MaterialLight.WPF.18.2.0.44\lib\net40\Syncfusion.Themes.MaterialLight.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -98,7 +117,9 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
